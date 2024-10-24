@@ -1,0 +1,29 @@
+.ColorDetail {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ColorDetail h1 {
+    margin-bottom: 20px;
+}
+
+.ColorDetail a {
+    margin-top: 10px;
+
+    background: white;
+    padding: 5px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.ColorDetail a:hover {
+    color: rgb(0, 0, 0);
+    /* Optional hover effect */
+}
